@@ -1,0 +1,67 @@
+
+#include <iostream>
+using namespace std;
+
+class Decimal
+{
+private:
+	int num1;
+	int denom1;
+	int num2;
+	int denom2;
+public:
+
+	void Fraction() {
+		 cin >> num1; 
+		 cin >> denom1; 
+	} 
+
+	void Fraction1() {
+		 cin >> num2;
+		 cin >> denom2;
+	} 
+	
+	void aditionFraction() {
+		double a;
+		double b;
+		a = num1 + num2;
+		b = denom1 * num2;
+		cout << "Fraction: \n";
+		cout << a << endl;
+		cout << b << endl;
+		cout <<  n / d;
+	}
+	
+	void subtraction() {
+		double a;
+		double b;
+		a = num1 - num2;
+		b = denom1 * num2;
+		cout << "Fraction: \n";
+		cout << a << endl;
+		cout << b << endl;
+		cout << n / d;
+	}
+	
+	void multiplication() {
+		double a;
+		double b;
+		a = num1 * num2;
+		b = denom1 * denom2;
+		cout << "Fraction: \n";
+		cout << a << endl;
+		cout << b << endl;
+		cout <<  n / d;
+	}
+
+	void divisionFraction() {
+		double a;
+		double b;
+		a = num1 * denom2;
+		b = denom1 * num1;
+		cout << "Fraction: \n";
+		cout << a << endl;
+		cout << b << endl;
+		cout << n / d;
+	}
+};
